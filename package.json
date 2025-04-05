@@ -14,7 +14,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "jest",
-    "coverage": "npm test -- --coverage --watchAll=false"
+    "coverage": "npm test -- --coverage --watchAll=false",
+    "cypress": "cypress open -P ."
   },
   "browserslist": {
     "production": [
